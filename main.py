@@ -87,7 +87,7 @@ async def main(message: cl.Message):
 
     result = Runner.run_streamed(
         agent,
-        input=prompt,
+        input=history,
         run_config=run_config,
     )
 
