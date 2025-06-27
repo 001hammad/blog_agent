@@ -4,7 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 from agents import Agent, AsyncOpenAI, Runner, RunConfig, OpenAIChatCompletionsModel, function_tool
 
 # Load .env variables
-load_dotenv(find_dotenv())
+load_dotenv()
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 gemini_base_url = os.getenv("GEMINI_BASE_URL")
 
