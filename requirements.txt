@@ -1,4 +1,0 @@
-chainlit
-python-dotenv
-openai  # ya jo bhi dependencies hain
-agents
